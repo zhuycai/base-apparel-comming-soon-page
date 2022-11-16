@@ -127,12 +127,24 @@ main {
     margin-top: -12px;
 }
 
-.add-email > .error-msg {
+.add-email > .msg {
     position: absolute;
     display: none;
     left: 1.4em;
     bottom: -2.5em;
     font-size: .8em;
+}
+
+.add-email > .error-msg.display {
+    display: block;
+}
+
+.add-email > .correct-msg.display {
+    display: block;
+}
+
+.add-email > .added-msg.display {
+    display: block;
 }
 
 footer {
